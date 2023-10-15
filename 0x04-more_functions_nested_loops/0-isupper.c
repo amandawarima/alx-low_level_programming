@@ -1,18 +1,16 @@
-#include 'main.h'
+#include "main.h"
 
 /**
- * _isupper - is the function of task
+ * _isupper - uppercase letters
  * @c: char to check
+ *
  * Return: 0 or 1
  */
-
-int _isupper(int c);
-
+int _isupper(int c)
 {
-	int c;
-
-	if (c <= 'A' && c <= 'Z')
-	Return(1);
-	else
-	Return(0);
+if (c >= 'A' && c <= 'Z')
+return (1);
+else
+return (0);
 }
+
